@@ -1,0 +1,256 @@
+{
+    "xcode_project": "DiaosiRun.xcodeproj", 
+    "java_sources": [], 
+    "pchs": [
+        "./DiaosiRun/DiaosiRun-Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "DiaosiRun/photo.png", 
+            "target": "photo.png"
+        }, 
+        {
+            "asset": "DiaosiRun/Settings.bundle/Root.plist", 
+            "target": "Settings.bundle/Root.plist"
+        }, 
+        {
+            "asset": "DiaosiRun/Settings.bundle/en.lproj/Root.strings", 
+            "target": "Settings.bundle/en.lproj/Root.strings"
+        }, 
+        {
+            "asset": "DiaosiRun/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "DiaosiRun/diaosi.png", 
+            "target": "diaosi.png"
+        }, 
+        {
+            "asset": "DiaosiRun/background.png", 
+            "target": "background.png"
+        }, 
+        {
+            "asset": "DiaosiRun/yellowBackground.png", 
+            "target": "yellowBackground.png"
+        }, 
+        {
+            "asset": "DiaosiRun/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "DiaosiRun/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "DiaosiRun/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "DiaosiRun/en.lproj/MainStoryboard.storyboard", 
+            "target": null
+        }, 
+        {
+            "asset": "DiaosiRun/green_background.png", 
+            "target": "green_background.png"
+        }, 
+        {
+            "asset": "DiaosiRun/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "DiaosiRun/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }
+    ], 
+    "link_flags": [], 
+    "config": {
+        "FEATURES": [
+            "landscape"
+        ], 
+        "SHORT_VERSION": "1.0", 
+        "APPLICATION_NAME": "DiaosiRun", 
+        "LONG_VERSION": "1.0", 
+        "APPLICATION_IDENTIFIER": "YichenYu.DiaosiRun", 
+        "TEMPLATE_VALUES": {
+            "PRODUCT_NAME": "DiaosiRun", 
+            "EXECUTABLE_NAME": "DiaosiRun"
+        }, 
+        "APPLICATION_FULL_NAME": "DiaosiRun"
+    }, 
+    "header_paths": [
+        {
+            "header_path": "DiaosiRun-generated-files.hmap", 
+            "type": "iquote", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "DiaosiRun-own-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "DiaosiRun-all-target-headers.hmap", 
+            "type": "I", 
+            "hmap": {}
+        }, 
+        {
+            "header_path": "DiaosiRun-project-headers.hmap", 
+            "type": "iquote", 
+            "hmap": {
+                "MenuViewController.h": {
+                    "prefix": "DiaosiRun/", 
+                    "suffix": "MenuViewController.h", 
+                    "key": "MenuViewController.h"
+                }, 
+                "AppDelegate.h": {
+                    "prefix": "DiaosiRun/", 
+                    "suffix": "AppDelegate.h", 
+                    "key": "AppDelegate.h"
+                }, 
+                "ViewController.h": {
+                    "prefix": "DiaosiRun/", 
+                    "suffix": "ViewController.h", 
+                    "key": "ViewController.h"
+                }, 
+                "SplashViewController.h": {
+                    "prefix": "./", 
+                    "suffix": "SplashViewController.h", 
+                    "key": "SplashViewController.h"
+                }, 
+                "HelpViewController.h": {
+                    "prefix": "DiaosiRun/", 
+                    "suffix": "HelpViewController.h", 
+                    "key": "HelpViewController.h"
+                }, 
+                "DiaosiRun-Prefix.pch": {
+                    "prefix": "DiaosiRun/", 
+                    "suffix": "DiaosiRun-Prefix.pch", 
+                    "key": "DiaosiRun-Prefix.pch"
+                }, 
+                "Cube.h": {
+                    "prefix": "./", 
+                    "suffix": "Cube.h", 
+                    "key": "Cube.h"
+                }, 
+                "Ball.h": {
+                    "prefix": "./", 
+                    "suffix": "Ball.h", 
+                    "key": "Ball.h"
+                }
+            }
+        }
+    ], 
+    "modules": [], 
+    "sources": [
+        {
+            "source": "Ball.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cube.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "DiaosiRun/AppDelegate.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "DiaosiRun/HelpViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "DiaosiRun/MenuViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "DiaosiRun/ViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "DiaosiRun/main.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "SplashViewController.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }
+    ], 
+    "version": "1", 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "infoplists": [
+        "./DiaosiRun/DiaosiRun-Info.plist"
+    ], 
+    "deps": [
+        "UIKit", 
+        "CoreMotion", 
+        "GLKit", 
+        "OpenGLES", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics"
+    ], 
+    "libs": [], 
+    "java_sourcepaths": [], 
+    "java_res_dirs": [], 
+    "type": "app", 
+    "java_libs": [], 
+    "defines": {
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60100, 
+        "NS_BLOCK_ASSERTIONS": 1
+    }
+}
